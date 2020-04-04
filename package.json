@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "@types/jest": "^24.9.1",
     "@types/node": "^12.12.34",
@@ -38,6 +37,8 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/react": "^9.5.0",
+    "axios-mock-adapter": "^1.18.1",
     "tslint": "^6.1.1",
     "tslint-config-prettier": "^1.18.0",
     "tslint-react": "^4.2.0"
